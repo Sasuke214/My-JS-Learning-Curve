@@ -1,0 +1,7 @@
+
+Arrow Function
+
+-> Used to eradicate function keyword
+-> In one line function, no need to return.
+-> If multiple lines are there, then has to be kept in braces.
+-> If there was single parameter, then no need to put in brace.
