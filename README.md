@@ -9,15 +9,15 @@ I put every points that i encounter while learning js, its kinda like notes i ge
 syntax: 
   ```javascript
   let var_name;
-	let var_name1,...,var_namen;
-	let var_name = value1;
+  let var_name1,...,var_namen;
+  let var_name = value1;
   
   ```
   
 	
 ..* It's Scope is only within the block where it is defined or declared;
-..* Will leads to reference error until it is initialized; ( Will be in temporal dead zone)
-..-> Hoisting will not work
+ Will leads to reference error until it is initialized; ( Will be in temporal dead zone)
+ Hoisting will not work
 ..* Cannot be declared more than once within the same block, for eg: switch;
 ..* Can be used as a private variable for a block, which can only be assessed with functions or var
    iables within that block.
