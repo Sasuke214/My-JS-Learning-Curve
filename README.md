@@ -26,8 +26,6 @@ syntax:
 *5. Can be used as a private variable for a block, which can only be assessed with functions or var
    iables within that block.*
 
-*6. If let is used to declare variable anywhere in the program, it will be in TDZ.*
-
-*7. If any variable is redeclared*
+*6. If let is used to declare variable anywhere in the program, it will be in TDZ until it is initialized*
 
 ___
