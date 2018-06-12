@@ -14,22 +14,15 @@ syntax:
   
   ```
   
-  1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
 	
 1. It's Scope is only within the block where it is defined or declared;
 2. Will leads to reference error until it is initialized; ( Will be in temporal dead zone)
 3. Hoisting will not work
-..* Cannot be declared more than once within the same block, for eg: switch;
-..* Can be used as a private variable for a block, which can only be assessed with functions or var
+4. Cannot be declared more than once within the same block, for eg: switch;
+5. Can be used as a private variable for a block, which can only be assessed with functions or var
    iables within that block.
 
-..* If let is used to declare variable anywhere in the program, it will be in TDZ.
-..* If any variable is redeclared 
+6. If let is used to declare variable anywhere in the program, it will be in TDZ.
+7. If any variable is redeclared 
 
 ___
