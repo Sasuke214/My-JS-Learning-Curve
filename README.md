@@ -15,14 +15,14 @@ syntax:
   ```
   
 	
--> It's Scope is only within the block where it is defined or declared;
--> Will leads to reference error until it is initialized; ( Will be in temporal dead zone)
--> Hoisting will not work
--> Cannot be declared more than once within the same block, for eg: switch;
--> Can be used as a private variable for a block, which can only be assessed with functions or var
+..* It's Scope is only within the block where it is defined or declared;
+..* Will leads to reference error until it is initialized; ( Will be in temporal dead zone)
+..-> Hoisting will not work
+..* Cannot be declared more than once within the same block, for eg: switch;
+..* Can be used as a private variable for a block, which can only be assessed with functions or var
    iables within that block.
 
--> If let is used to declare variable anywhere in the program, it will be in TDZ.
--> If any variable is redeclared 
+..* If let is used to declare variable anywhere in the program, it will be in TDZ.
+..* If any variable is redeclared 
 
 ___
