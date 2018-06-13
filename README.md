@@ -45,7 +45,7 @@ var g = () => ({})
 ```
 
 
-*.. Used to eradicate function keyword*
+Markup : * Used to eradicate function keyword
 
 *.. In one line function, no need to return.*
 
