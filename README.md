@@ -29,3 +29,34 @@ syntax:
 *6. If let is used to declare variable anywhere in the program, it will be in TDZ until it is initialized*
 
 ___
+
+
+### Arrow Function
+
+Eg 1.
+```javascript
+var d = (a) => a+1;
+var e = x => x+1;
+var f = () => { return; }
+```
+```javascript
+Eg 2.
+var g = () => ({})
+```
+
+
+*.. Used to eradicate function keyword*
+
+*.. In one line function, no need to return.*
+
+*.. If multiple lines are there, then has to be kept in braces.*
+
+*.. If there was single parameter, then no need to put in brace.*
+
+*.. There is no arguments, this and super keyword within arrow function.*
+
+*.. this keyword will always refer to global window inside arrow function.*
+
+*.. While creating empty object if u write a program then always wrap in (). see eg2 *
+
+___
