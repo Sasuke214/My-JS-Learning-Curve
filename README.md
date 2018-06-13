@@ -45,18 +45,18 @@ var g = () => ({})
 ```
 
 
-Markup : * Used to eradicate function keyword
+* Used to eradicate function keyword
 
-*.. In one line function, no need to return.*
+* In one line function, no need to return
 
-*.. If multiple lines are there, then has to be kept in braces.*
+* If multiple lines are there, then has to be kept in braces
 
-*.. If there was single parameter, then no need to put in brace.*
+* If there was single parameter, then no need to put in brace.
 
-*.. There is no arguments, this and super keyword within arrow function.*
+* There is no arguments, this and super keyword within arrow function.
 
-*.. this keyword will always refer to global window inside arrow function.*
+* this keyword will always refer to global window inside arrow function.
 
-*.. While creating empty object if u write a program then always wrap in (). see eg2 *
+* While creating empty object if u write a program then always wrap in (). see eg2 
 
 ___
