@@ -1,7 +1,20 @@
 
 Arrow Function
 
+Eg 1.
+var d = (a) => a+1;
+var e = x => x+1;
+var f = () => { return; }
+
+Eg 2.
+var g = () => ({})
+
+
+
 -> Used to eradicate function keyword
 -> In one line function, no need to return.
 -> If multiple lines are there, then has to be kept in braces.
 -> If there was single parameter, then no need to put in brace.
+-> There is no arguments, this and super keyword within arrow function.
+-> this keyword will always refer to global window inside arrow function.
+-> While creating empty object if u write a program then always wrap in (). Eg no 2.
